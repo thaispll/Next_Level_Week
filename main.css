@@ -1,3 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
-	background:linear-gradient(329.54deg, #29b6d1 0%,);
+	height: 100vh;
+	color: white;
+}
+
+:root {
+	font-size: 62,5%;
+}
+
+body, input, button, textarea {
+	/*font-weight: 400;
+	font-size: 18px;
+	line-height: 1;
+	font-family: 'Nunito', sans-serif; o código abaixo é um resumo do coment, em uma só linha*/
+	font: 400 1.8rem/1 'Nunito', sans-serif;
+} 
+
+body {
+	font-size: 0.6em;
+}
+
+#page-landing {
+	background:linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
+
+	text-align: center;
+	min-height: 100vh;
+	display: flex;
+
+}
+
+#container {
+	margin: auto;
+}
+
+.location, h1, .visit p{
+	height: 16vh;
 }
