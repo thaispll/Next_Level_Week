@@ -12,6 +12,7 @@ body {
 	font-size: 62,5%;
 }
 
+
 body, input, button, textarea {
 	/*font-weight: 400;
 	font-size: 18px;
@@ -30,6 +31,7 @@ body {
 	text-align: center;
 	min-height: 100vh;
 	display: flex;
+	align-items: center;
 
 }
 
@@ -39,4 +41,58 @@ body {
 
 .location, h1, .visit p{
 	height: 16vh;
+}
+.visit a {
+	width: 8rem;
+	height: 8rem;
+	background: #ffd666;
+
+	border:none;
+	border-radius: 3rem;
+
+	display: flex;
+	align-items: center; /* alinha itens no eixo X*/
+	justify-content: center; /* alinha itens no eixo Y*/
+	margin: 0 auto;
+}
+
+/*animaçoes*/
+@keyframes up {
+	from {
+		opacity: 0;
+		transform: translateY(16px);
+
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	.animate-up {
+
+		animation-name: up;
+		animation-duration: 300ms;
+		animation-fill-mode: backwards; 
+	}
+}
+
+#logo{
+	animation-delay: 50ms;
+}
+
+.location{
+	animation-delay: 100ms;
+}
+
+.main h1 {
+	animation-delay: 150ms;
+}
+
+.visit p {
+	animation-delay: 200ms;
+}
+
+.visit a {
+	animation-delay: 250ms;
 }
