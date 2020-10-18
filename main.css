@@ -1,26 +1,25 @@
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-	height: 100vh;
-	color: white;
+    height: 100vh;
+    color: white;
+    background: #EBF2F5;
 }
 
 :root {
-	font-size: 62,5%;
+    font-size: 62, 5%;
 }
 
-
-body, input, button, textarea {
-	/*font-weight: 400;
+body,
+input,
+button,
+textarea {
+    /*font-weight: 400;
 	font-size: 18px;
 	line-height: 1;
 	font-family: 'Nunito', sans-serif; o código abaixo é um resumo do coment, em uma só linha*/
-	font: 400 1.8rem/1 'Nunito', sans-serif;
-} 
-
-
-
-
+    font: 400 1.8rem/1 'Nunito', sans-serif;
+}
